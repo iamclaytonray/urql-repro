@@ -1,0 +1,13 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iamclaytonray/urql-repro.git",
+  "author": "Clayton Ray <iamclaytonray@gmail.com> (https://iamclaytonray.com/)",
+  "license": "MIT",
+  "scripts": {
+    "deps": "cd ./api && yarn && cd ../web && yarn && cd ..",
+    "api": "cd ./api && yarn build:dev && yarn start:dev",
+    "web": "cd ./web && yarn start"
+  }
+}

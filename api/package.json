@@ -5,7 +5,7 @@
   "author": "Clayton Ray <iamclaytonray@gmail.com> (https://iamclaytonray.com/)",
   "license": "MIT",
   "scripts": {
-    "build:dev": "npx tsc -w",
+    "build:dev": "npx tsc",
     "start:dev": "npx nodemon ./build/main.js"
   },
   "dependencies": {

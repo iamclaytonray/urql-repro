@@ -1,39 +1,27 @@
 # Instructions
 
-### API
+### Clone
+
+```
+git clone git@github.com:iamclaytonray/urql-repro.git
+```
+
+From the root, run each of these
 
 Install deps
 
 ```
-yarn
+yarn deps
 ```
 
-Build
+Build & run API
 
 ```
-yarn build:dev
+yarn api
 ```
 
-After tsc is done, run
+Build & run web
 
 ```
-yarn start:dev
+yarn web
 ```
-
-This will run at http://localhost:3000
-
-### API
-
-Install deps
-
-```
-yarn
-```
-
-Run
-
-```
-yarn start
-```
-
-This will run at http://localhost:8081
